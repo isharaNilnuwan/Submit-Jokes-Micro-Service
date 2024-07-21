@@ -1,0 +1,22 @@
+{
+  "name": "submit-micro-service-",
+  "version": "1.0.0",
+  "description": "jokes submit micro service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isharaNilnuwan/Submit-Jokes-Micro-Service.git"
+  },
+  "author": "Ishara Ananda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isharaNilnuwan/Submit-Jokes-Micro-Service/issues"
+  },
+  "homepage": "https://github.com/isharaNilnuwan/Submit-Jokes-Micro-Service#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
