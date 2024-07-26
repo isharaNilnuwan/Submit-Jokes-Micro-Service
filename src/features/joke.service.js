@@ -9,7 +9,7 @@ async function get(id) {
 }
 
 async function getUnModeratedJokes() {
-    return jokesModel.find({ moderatedStatus: false });
+    return jokesModel.find({ approved: false });
   }
 
 async function create(data) {

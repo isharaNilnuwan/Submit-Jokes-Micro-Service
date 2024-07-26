@@ -4,14 +4,12 @@ const mongoose = require('mongoose');
 function connectDB() {
   const url =  process.env.MONGO_URI;
 
-  mongoose.connect(url, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-  }).then(() => {
+  console.log("Database connection url", process.env.MONGO_URI);
+
+  mongoose.connect(url).then(() => {
     console.log(`Database connected: ${url}`);
   }).catch(err => {
     console.error(`Connection error: ${err.message}`);
-    process.exit(1);
   });
 
   // Optionally, handle further connection events if needed

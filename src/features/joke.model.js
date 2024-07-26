@@ -3,15 +3,15 @@ const Schema = mongoose.Schema;
 
 const jokeSchema = new Schema(
   {
-    jokeType: {
+    type: {
       type: String,
       required: true,
     },
-    joke: {
+    content: {
       type: String,
       required: true,
     },
-    moderatedStatus: {
+    approved: {
       type: Boolean,
       default: false,
     },

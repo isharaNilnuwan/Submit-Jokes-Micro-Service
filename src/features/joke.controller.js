@@ -62,6 +62,7 @@ async function get(req, res, next) {
   }
   
   async function remove(req, res, next) {
+    console.log("#$ remove submit service", req.params.id)
     try {
       res.json(await jokeService.remove(req.params.id));
     } catch (err) {
