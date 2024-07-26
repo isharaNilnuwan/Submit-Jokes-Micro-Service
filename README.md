@@ -1,7 +1,9 @@
-# Building a Submit Microservice with Express and MongoDB
+# Building a Joke Submit Portal Microservice with Express and MongoDB
 
 ## Description
-This project is a microservice built using Express.js and MongoDB. It provides functionality for submitting and managing data in a scalable and efficient manner. The service includes endpoints for submitting data, retrieving submitted records, and managing them using a MongoDB database.
+This project is a microservice built using Express.js and MongoDB. It provides functionality for submitting and managing data in a scalable and efficient manner. The service includes endpoints for submitting data, retrieving submitted records, and managing them using a MongoDB database. The system includes other microservices for moderating jokes and viewing jokes.
+
+
 
 ## Features
 - **Usage of API Key**: Implements API key authentication for secure communication with private servers.
@@ -31,3 +33,5 @@ Create a `.env` file in the root directory with the following environment variab
 PORT=3000
 MONGO_URI=mongodb://localhost:27017 
 CLIENT_API_KEY=a38d54e0e4fb18e9b5b299a3926b7c74ec7c1bc648037d7e054522ecefc40d78
+```
+
